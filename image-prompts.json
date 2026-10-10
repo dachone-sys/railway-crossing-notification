@@ -1,14 +1,16 @@
 {
-  "mode": "OpenAI built-in image generation",
-  "images": [
+  "date": "2026-10-10",
+  "note": "AI生成の架空の設置構想。画像は寸法・施工・安全の根拠ではない。",
+  "files": [
     {
-      "file": "踏切デバイス_設置イメージ.png",
-      "prompt": "Create one photorealistic architectural infrastructure proposal board consisting of three clearly separated landscape photographs stacked vertically, no captions outside photographs. Japanese suburban railway level crossing, left-hand traffic, plausible realistic street. Consistent device design: a small dedicated grey roadside pole with matte black rectangular amber LED display, never mounted on railway warning equipment. Top photo: driver's eye view from left lane looking toward crossing about 70 metres ahead, a clearly legible advance warning panel on LEFT roadside near foreground, text exactly two lines 'この先 踏切' and '一時停止', no green lights on new device; existing crossing crossbucks red warning lights and yellow black barriers visible far ahead. Middle photo: closer street view of separate confirmation display about 15m before crossing stop line, entirely on LEFT sidewalk margin with unobstructed walking space; panel exactly '列車接近' and '一時停止'; existing warning equipment is separate, railway barrier is DOWN, cars correctly waiting before stop line, no cars on tracks. Bottom photo: same concept seen from driver at dusk in light rain, subtle dim amber readable display '列車接近' and '一時停止', no dazzling bloom, original crossing red warning signals visible, cars waiting safely. Documentary realistic infrastructure visual, no spectacular sci-fi, straight sensible road geometry, no brand logos, no fake certificates. Large image, each photograph wide, three rows separated by thin white gutters. These are fictional design concepts, not an actual location."
+      "file": "踏切上部_徐行表示.png",
+      "reference": "旧版の踏切デバイス_徐行と予測時間.png",
+      "instructions": "左側電柱の表示器を除去。踏切入口手前の道路を跨ぐ独立した灰色の門型フレーム水平梁中央に表示器を設置。警報機を隠さない。緑の徐行、列車到来まで約90秒、将来構想。昼間、警報消灯、遮断棒を上げる。"
     },
     {
-      "file": "踏切デバイス_徐行と予測時間.png",
-      "prompt": "Photorealistic proposal illustration, one wide landscape image. Fictional Japanese suburban railway level crossing in daytime, left-hand traffic. Driver eye viewpoint approaching crossing from left lane, all railway yellow-black barriers fully raised, NO train and NO lit red railway warning lamps. A car is cautiously traversing beyond crossing, realistic road and stop line geometry. On LEFT a dedicated roadside LED black rectangular board is conspicuous and large. Display exactly three lines of Japanese text: '徐行' in soft GREEN on first line, '列車到来まで' in white second line, '約 90 秒' in white third line. Above display, small plate exactly '将来構想'. Do not add green circle traffic lights; digital text rectangle is an experimental concept indicator. Existing railway crossbuck warning equipment remains distinct and unobscured. Gentle green border signals conceptual slow state, no science fiction or promotional logos. Realistic dedicated grey pole and unobstructed sidewalk. Image is a proposed future legally authorized scenario, not current Japanese operating instructions. Add a discreet clean bottom caption exactly '制度変更後の構想・予測時刻は例示'. Make all requested Japanese text clear and correct. Wide 1536x1024 style photographic composition."
+      "file": "踏切上部_昼夜の設置.png",
+      "reference": "踏切上部_徐行表示.png",
+      "instructions": "同じ踏切上部の門型表示を2段組にする。上段は昼、緑の徐行と約90秒、警報消灯で棒は垂直。下段は雨夜、赤の進入禁止と列車通過中、赤警報点灯で遮断中、車は停止線手前。"
     }
-  ],
-  "note": "AI生成・架空の設置構想。実在の施工写真ではありません。"
+  ]
 }
