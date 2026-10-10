@@ -1,0 +1,500 @@
+{
+  "checkedOn": "2026-10-10",
+  "model": "fluid-queue-1",
+  "parameters": {
+    "demand": 600,
+    "stopHeadway": 5,
+    "slowHeadway": 3,
+    "cycle": 240,
+    "closure": 45,
+    "lead": 30,
+    "horizon": 3600
+  },
+  "periodic": [
+    {
+      "policy": "current",
+      "arrived": 600,
+      "passed": 578.5000000000217,
+      "remaining": 21.49999999999386,
+      "maxQueue": 21.49999999999386,
+      "meanDelay": 61.0062499999862,
+      "capacity": 585,
+      "overloaded": true
+    },
+    {
+      "policy": "notice",
+      "arrived": 600,
+      "passed": 592.5000000000118,
+      "remaining": 7.500000000000019,
+      "maxQueue": 7.500000000000019,
+      "meanDelay": 8.156250000000005,
+      "capacity": 915,
+      "overloaded": false
+    },
+    {
+      "policy": "signal",
+      "arrived": 600,
+      "passed": 592.5000000000118,
+      "remaining": 7.500000000000019,
+      "maxQueue": 7.500000000000019,
+      "meanDelay": 8.156250000000005,
+      "capacity": 975,
+      "overloaded": false
+    }
+  ],
+  "sensitivity": [
+    {
+      "demand": 300,
+      "slowHeadway": 3,
+      "results": [
+        {
+          "policy": "current",
+          "arrived": 300,
+          "passed": 296.2500000000176,
+          "remaining": 3.7500000000000093,
+          "maxQueue": 3.7500000000000093,
+          "meanDelay": 7.031250000000015,
+          "capacity": 585,
+          "overloaded": false
+        },
+        {
+          "policy": "notice",
+          "arrived": 300,
+          "passed": 296.25000000000864,
+          "remaining": 3.7500000000000093,
+          "maxQueue": 3.7500000000000093,
+          "meanDelay": 5.53125,
+          "capacity": 915,
+          "overloaded": false
+        },
+        {
+          "policy": "signal",
+          "arrived": 300,
+          "passed": 296.25000000000864,
+          "remaining": 3.7500000000000093,
+          "maxQueue": 3.7500000000000093,
+          "meanDelay": 5.53125,
+          "capacity": 975,
+          "overloaded": false
+        }
+      ]
+    },
+    {
+      "demand": 300,
+      "slowHeadway": 4,
+      "results": [
+        {
+          "policy": "current",
+          "arrived": 300,
+          "passed": 296.2500000000176,
+          "remaining": 3.7500000000000093,
+          "maxQueue": 3.7500000000000093,
+          "meanDelay": 7.031250000000015,
+          "capacity": 585,
+          "overloaded": false
+        },
+        {
+          "policy": "notice",
+          "arrived": 300,
+          "passed": 296.2500000000079,
+          "remaining": 3.7500000000000093,
+          "maxQueue": 3.7500000000000093,
+          "meanDelay": 6.187500000000002,
+          "capacity": 708.75,
+          "overloaded": false
+        },
+        {
+          "policy": "signal",
+          "arrived": 300,
+          "passed": 296.2500000000079,
+          "remaining": 3.7500000000000093,
+          "maxQueue": 3.7500000000000093,
+          "meanDelay": 6.187500000000002,
+          "capacity": 731.25,
+          "overloaded": false
+        }
+      ]
+    },
+    {
+      "demand": 300,
+      "slowHeadway": 5,
+      "results": [
+        {
+          "policy": "current",
+          "arrived": 300,
+          "passed": 296.2500000000176,
+          "remaining": 3.7500000000000093,
+          "maxQueue": 3.7500000000000093,
+          "meanDelay": 7.031250000000015,
+          "capacity": 585,
+          "overloaded": false
+        },
+        {
+          "policy": "notice",
+          "arrived": 300,
+          "passed": 296.2500000000176,
+          "remaining": 3.7500000000000093,
+          "maxQueue": 3.7500000000000093,
+          "meanDelay": 7.031250000000015,
+          "capacity": 585,
+          "overloaded": false
+        },
+        {
+          "policy": "signal",
+          "arrived": 300,
+          "passed": 296.2500000000176,
+          "remaining": 3.7500000000000093,
+          "maxQueue": 3.7500000000000093,
+          "meanDelay": 7.031250000000015,
+          "capacity": 585,
+          "overloaded": false
+        }
+      ]
+    },
+    {
+      "demand": 600,
+      "slowHeadway": 3,
+      "results": [
+        {
+          "policy": "current",
+          "arrived": 600,
+          "passed": 578.5000000000217,
+          "remaining": 21.49999999999386,
+          "maxQueue": 21.49999999999386,
+          "meanDelay": 61.0062499999862,
+          "capacity": 585,
+          "overloaded": true
+        },
+        {
+          "policy": "notice",
+          "arrived": 600,
+          "passed": 592.5000000000118,
+          "remaining": 7.500000000000019,
+          "maxQueue": 7.500000000000019,
+          "meanDelay": 8.156250000000005,
+          "capacity": 915,
+          "overloaded": false
+        },
+        {
+          "policy": "signal",
+          "arrived": 600,
+          "passed": 592.5000000000118,
+          "remaining": 7.500000000000019,
+          "maxQueue": 7.500000000000019,
+          "meanDelay": 8.156250000000005,
+          "capacity": 975,
+          "overloaded": false
+        }
+      ]
+    },
+    {
+      "demand": 600,
+      "slowHeadway": 4,
+      "results": [
+        {
+          "policy": "current",
+          "arrived": 600,
+          "passed": 578.5000000000217,
+          "remaining": 21.49999999999386,
+          "maxQueue": 21.49999999999386,
+          "meanDelay": 61.0062499999862,
+          "capacity": 585,
+          "overloaded": true
+        },
+        {
+          "policy": "notice",
+          "arrived": 600,
+          "passed": 592.5000000000142,
+          "remaining": 7.500000000000019,
+          "maxQueue": 7.500000000000019,
+          "meanDelay": 12.09375000000001,
+          "capacity": 708.75,
+          "overloaded": false
+        },
+        {
+          "policy": "signal",
+          "arrived": 600,
+          "passed": 592.5000000000142,
+          "remaining": 7.500000000000019,
+          "maxQueue": 7.500000000000019,
+          "meanDelay": 12.09375000000001,
+          "capacity": 731.25,
+          "overloaded": false
+        }
+      ]
+    },
+    {
+      "demand": 600,
+      "slowHeadway": 5,
+      "results": [
+        {
+          "policy": "current",
+          "arrived": 600,
+          "passed": 578.5000000000217,
+          "remaining": 21.49999999999386,
+          "maxQueue": 21.49999999999386,
+          "meanDelay": 61.0062499999862,
+          "capacity": 585,
+          "overloaded": true
+        },
+        {
+          "policy": "notice",
+          "arrived": 600,
+          "passed": 578.5000000000217,
+          "remaining": 21.49999999999386,
+          "maxQueue": 21.49999999999386,
+          "meanDelay": 61.0062499999862,
+          "capacity": 585,
+          "overloaded": true
+        },
+        {
+          "policy": "signal",
+          "arrived": 600,
+          "passed": 578.5000000000217,
+          "remaining": 21.49999999999386,
+          "maxQueue": 21.49999999999386,
+          "meanDelay": 61.0062499999862,
+          "capacity": 585,
+          "overloaded": true
+        }
+      ]
+    },
+    {
+      "demand": 900,
+      "slowHeadway": 3,
+      "results": [
+        {
+          "policy": "current",
+          "arrived": 900,
+          "passed": 585.0000000000157,
+          "remaining": 314.9999999999307,
+          "maxQueue": 314.9999999999307,
+          "meanDelay": 615.374999999947,
+          "capacity": 585,
+          "overloaded": true
+        },
+        {
+          "policy": "notice",
+          "arrived": 900,
+          "passed": 887.2500000000697,
+          "remaining": 12.749999999999996,
+          "maxQueue": 12.749999999999996,
+          "meanDelay": 20.891249999999992,
+          "capacity": 915,
+          "overloaded": false
+        },
+        {
+          "policy": "signal",
+          "arrived": 900,
+          "passed": 888.7500000000867,
+          "remaining": 11.25,
+          "maxQueue": 11.25,
+          "meanDelay": 16.031249999999996,
+          "capacity": 975,
+          "overloaded": false
+        }
+      ]
+    },
+    {
+      "demand": 900,
+      "slowHeadway": 4,
+      "results": [
+        {
+          "policy": "current",
+          "arrived": 900,
+          "passed": 585.0000000000157,
+          "remaining": 314.9999999999307,
+          "maxQueue": 314.9999999999307,
+          "meanDelay": 615.374999999947,
+          "capacity": 585,
+          "overloaded": true
+        },
+        {
+          "policy": "notice",
+          "arrived": 900,
+          "passed": 708.749999999983,
+          "remaining": 191.2499999999959,
+          "maxQueue": 191.2499999999959,
+          "meanDelay": 362.71875,
+          "capacity": 708.75,
+          "overloaded": true
+        },
+        {
+          "policy": "signal",
+          "arrived": 900,
+          "passed": 731.25,
+          "remaining": 168.75,
+          "maxQueue": 168.75,
+          "meanDelay": 319.21875,
+          "capacity": 731.25,
+          "overloaded": true
+        }
+      ]
+    },
+    {
+      "demand": 900,
+      "slowHeadway": 5,
+      "results": [
+        {
+          "policy": "current",
+          "arrived": 900,
+          "passed": 585.0000000000157,
+          "remaining": 314.9999999999307,
+          "maxQueue": 314.9999999999307,
+          "meanDelay": 615.374999999947,
+          "capacity": 585,
+          "overloaded": true
+        },
+        {
+          "policy": "notice",
+          "arrived": 900,
+          "passed": 585.0000000000157,
+          "remaining": 314.9999999999307,
+          "maxQueue": 314.9999999999307,
+          "meanDelay": 615.374999999947,
+          "capacity": 585,
+          "overloaded": true
+        },
+        {
+          "policy": "signal",
+          "arrived": 900,
+          "passed": 585.0000000000157,
+          "remaining": 314.9999999999307,
+          "maxQueue": 314.9999999999307,
+          "meanDelay": 615.374999999947,
+          "capacity": 585,
+          "overloaded": true
+        }
+      ]
+    }
+  ],
+  "timetable": [
+    {
+      "day": "weekday",
+      "records": 20,
+      "estimatedBlockedSeconds": 795,
+      "results": [
+        {
+          "policy": "current",
+          "arrived": 600,
+          "passed": 560.1666666667048,
+          "remaining": 39.83333333333364,
+          "maxQueue": 46.49999999999993,
+          "meanDelay": 139.91180555555485,
+          "capacity": 561.0000000000375,
+          "overloaded": true
+        },
+        {
+          "policy": "notice",
+          "arrived": 600,
+          "passed": 594.166666666661,
+          "remaining": 5.83333333333334,
+          "maxQueue": 22.499999999999847,
+          "meanDelay": 20.637916666666637,
+          "capacity": 877.0000000000945,
+          "overloaded": false
+        },
+        {
+          "policy": "signal",
+          "arrived": 600,
+          "passed": 594.1666666666607,
+          "remaining": 5.83333333333334,
+          "maxQueue": 12.500000000000126,
+          "meanDelay": 13.572916666666671,
+          "capacity": 935.0000000001457,
+          "overloaded": false
+        }
+      ]
+    },
+    {
+      "day": "holiday",
+      "records": 20,
+      "estimatedBlockedSeconds": 840,
+      "results": [
+        {
+          "policy": "current",
+          "arrived": 600,
+          "passed": 546.1666666667178,
+          "remaining": 53.83333333333373,
+          "maxQueue": 59.50000000000007,
+          "meanDelay": 186.3743055555573,
+          "capacity": 552.0000000000457,
+          "overloaded": true
+        },
+        {
+          "policy": "notice",
+          "arrived": 600,
+          "passed": 600.0000000000192,
+          "remaining": 0,
+          "maxQueue": 12.499999999999957,
+          "meanDelay": 14.244999999999994,
+          "capacity": 848.000000000066,
+          "overloaded": false
+        },
+        {
+          "policy": "signal",
+          "arrived": 600,
+          "passed": 600.0000000000208,
+          "remaining": 0,
+          "maxQueue": 12.499999999999957,
+          "meanDelay": 11.124999999999984,
+          "capacity": 920.000000000139,
+          "overloaded": false
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "station": "海老名",
+      "direction": "up",
+      "day": "holiday",
+      "revision": "2026-03-14",
+      "url": "https://www.odakyu.jp/station/ebina/timetable_up_holiday.pdf",
+      "sha256": "229812789e1e42b5b6e2ff42f66b1acbc7545f711a2cbb26197b798ce0850c21"
+    },
+    {
+      "station": "海老名",
+      "direction": "up",
+      "day": "weekday",
+      "revision": "2026-03-16",
+      "url": "https://www.odakyu.jp/station/ebina/timetable_up_weekday.pdf",
+      "sha256": "f463eb95b434e09b2f5346fef351cfd4f9cfc773c42e22708d1b682f79c3cf66"
+    },
+    {
+      "station": "座間",
+      "direction": "down",
+      "day": "holiday",
+      "revision": "2026-03-14",
+      "url": "https://www.odakyu.jp/station/zama/timetable_down_holiday.pdf",
+      "sha256": "1cfd5117d38ac7bef4b1d4420a4390ff7f45bd49dce2fb566f0c2ecc7ff9c3d3"
+    },
+    {
+      "station": "座間",
+      "direction": "down",
+      "day": "weekday",
+      "revision": "2026-03-16",
+      "url": "https://www.odakyu.jp/station/zama/timetable_down_weekday.pdf",
+      "sha256": "b6213c1110527f2f9da589522fd786919bb0a6cbf9ce1da0e52069170289bc4a"
+    }
+  ],
+  "empirical": {
+    "crossing": "黒沢踏切",
+    "intervention": "信号踏切整備",
+    "queueBeforeM": 1300,
+    "queueAfterM": 0,
+    "speedBeforeKph": 12,
+    "speedAfterKph": 40,
+    "trainsPerDay": 28,
+    "beforeYear": "H26",
+    "afterYear": "H30",
+    "source": "https://www.mlit.go.jp/road/sisaku/fumikiri/pdf/jirei_03.pdf"
+  },
+  "limitations": [
+    "道路交通量・車頭時間・踏切到達・警報時刻は仮定",
+    "下り通過列車等はダイヤ未収録",
+    "一定流入・片方向・初期車列0・60分評価",
+    "平均遅れは期間内車列面積/全到着台数。終了後の遅れは未計上",
+    "実測改善率ではない"
+  ]
+}
